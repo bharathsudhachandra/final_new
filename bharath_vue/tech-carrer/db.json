@@ -1,1 +1,42 @@
-
+{"jobs": [
+  {
+    "job_id": "1",
+    "company_name": "TechNova Solutions",
+    "job_title": "Software Engineer Intern",
+    "job_type": "Internship",
+    "location": "Remote",
+    "salary_type": "Unpaid",
+    "estimated_salary": "N/A",
+    "job_description": "We are seeking a passionate Software Engineer Intern to join our remote development team. Responsibilities include assisting in software development, testing, and debugging web applications. Qualifications: Familiarity with JavaScript, HTML/CSS, and React. Enrolled in a Computer Science program."
+  },
+  {
+    "job_id": "2",
+    "company_name": "DataWise Inc.",
+    "job_title": "Data Analyst",
+    "job_type": "Full-time",
+    "location": "New York, NY (Hybrid)",
+    "salary_type": "Paid",
+    "estimated_salary": "$85K - $95K per year",
+    "job_description": "Full-time Data Analyst needed to gather, clean, and interpret large datasets to inform business decisions. Proficiency in SQL, Excel, and data visualization tools like Tableau or Power BI required. Prior experience with statistical analysis is a plus."
+  },
+  {
+    "job_id": "3",
+    "company_name": "GreenTech Ventures",
+    "job_title": "Junior Web Developer",
+    "job_type": "Part-time",
+    "location": "San Francisco, CA (On-site)",
+    "salary_type": "Paid",
+    "estimated_salary": "$30/hour",
+    "job_description": "Looking for a part-time Junior Web Developer to maintain and enhance existing web platforms. Must have experience with HTML, CSS, JavaScript, and basic knowledge of Vue.js or React. Good problem-solving skills are a must."
+  },
+  {
+    "job_id": "4",
+    "company_name": "EcoBuild",
+    "job_title": "Project Assistant",
+    "job_type": "Internship",
+    "location": "Hybrid (Austin, TX)",
+    "salary_type": "Unpaid",
+    "estimated_salary": "N/A",
+    "job_description": "Seeking a Project Assistant Intern to support project managers with administrative tasks, meeting scheduling, and documentation. Ideal for students pursuing a degree in Business or Environmental Studies."
+  }
+]}
