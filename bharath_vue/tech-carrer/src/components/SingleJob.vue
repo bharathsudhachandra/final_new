@@ -66,7 +66,7 @@ export default {
     // Check if this job is already bookmarked
     try {
       const res = await fetch(
-        "https://new-node-production.up.railway.app/api/bookmarks"
+        "https://new-node-production.up.railway.app/bookmarks"
       );
       const bookmarks = await res.json();
       this.isBookmarked = bookmarks.some(
@@ -93,7 +93,7 @@ export default {
         };
 
         const res = await fetch(
-          "https://new-node-production.up.railway.app/api/bookmarks",
+          "https://new-node-production.up.railway.app/bookmarks",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },

@@ -17,7 +17,7 @@ export default {
     return { bookmarks: [] };
   },
   async created() {
-    const res = await fetch("http://localhost:5000/api/bookmarks");
+    const res = await fetch("http://localhost:5000/bookmarks");
     this.bookmarks = await res.json();
   }
 };

@@ -47,33 +47,4 @@ export default {
   width: 100%;
   display: grid;
 }
-
-/* Mobile Responsiveness */
-@media (max-width: 1024px) {
-  .jobs-list {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .jobs-list {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 24px;
-    padding: 20px;
-  }
-
-  .no-jobs {
-    font-size: 1rem;
-    padding: 30px 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .jobs-list {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 15px;
-  }
-}
 </style>
